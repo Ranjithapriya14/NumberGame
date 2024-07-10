@@ -1,0 +1,20 @@
+import java.util.*;
+import java.util.Random;
+import java.util.Scanner;
+public class NumberGame{
+    public static void main(String[]args){
+      int answr,guess;
+      final int MAX_ATTEMPTS=5;
+      Scanner keyboard=new Scanner(System.in);
+      Random rand=new Random();
+      answer=rand.nextInt(MAX_ATTEMPTS)+1;
+      System.out.print("Guess a number range between 1 to 100 : ");
+          guess=keyboard.nextInt();
+      if(guess==answer){
+          System.out.println("Great !, the number was "+answer);
+      }
+      else{
+          System.out.println("Sorry !, the number was "+answer);
+      }
+    }
+}
