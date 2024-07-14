@@ -6,8 +6,8 @@ public class NumberGame{
       int answer,guess;
       final int MAX_ATTEMPTS=5;
       Scanner keyboard=new Scanner(System.in);
-      Random rand=new Random();
-      answer=rand.nextInt(MAX_ATTEMPTS)+1;
+      Random rand = new Random();
+      answer =  rand.nextInt(MAX_ATTEMPTS)+1;
       System.out.print("Guess a number range between 1 to 100 : ");
           guess=keyboard.nextInt();
       if(guess==answer){
