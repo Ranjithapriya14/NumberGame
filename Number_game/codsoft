@@ -3,7 +3,7 @@ import java.util.Random;
 import java.util.Scanner;
 public class NumberGame{
     public static void main(String[]args){
-      int answr,guess;
+      int answer,guess;
       final int MAX_ATTEMPTS=5;
       Scanner keyboard=new Scanner(System.in);
       Random rand=new Random();
